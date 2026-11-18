@@ -2,25 +2,18 @@
 
 Pequeno FPS acadêmico em C11 com OpenGL clássico, GLU e FreeGLUT. O mapa contém a casa principal, jardim, floresta e três cabanas com interiores acessíveis. Os personagens e efeitos usam geometria simples, sem modelos ou texturas externas.
 
-## Atualizar e executar no Windows
+## Configurar e executar no Windows
 
 Extraia `A_Casa.zip`. A pasta `A_Casa` contém `Makefile`, `README.md` e `src`. Abra **MSYS2 UCRT64** e, se extraiu em Downloads, execute:
 
 ```sh
-cd /c/Users/victor.AHERJ/Downloads/A_Casa
+cd /c/Users/caminho/para/A_Casa
 make
 ./a_casa.exe
 ```
 
-Você também pode copiar o conteúdo da nova pasta para a pasta antiga do projeto, substituindo os fontes e o Makefile. Nesse caso, o comando continua usando seu caminho anterior:
 
-```sh
-cd /c/Users/victor.AHERJ/Downloads/FPS_DOOM_C
-make
-./a_casa.exe
-```
-
-O executável desta versão é **`a_casa.exe`**. Abrir o executável da versão anterior não aplica as atualizações. Este pacote contém fontes e testes; não inclui um `.exe` Windows pré-compilado.
+O executável desta versão é **`a_casa.exe`**. Este pacote contém fontes e testes; não inclui um `.exe` Windows pré-compilado.
 
 Para uma instalação inicial, instale [MSYS2](https://www.msys2.org/), abra **MSYS2 UCRT64**, atualize com `pacman -Syu` (reabra o terminal se solicitado) e instale:
 
